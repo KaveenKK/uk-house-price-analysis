@@ -30,7 +30,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 ## Analysis Sections
 
 | Section | Description |
-
+| :--- | :--- |
 | **Data Loading** | Fetch directly from HM Land Registry open data S3 bucket |
 | **Data Cleaning** | Handle missing values, outlier removal, feature engineering |
 | **Price Distribution** | Histogram and log-scale distribution analysis |
@@ -39,7 +39,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 | **New Build vs Existing** | Premium analysis across property categories |
 | **County Comparison** | Top 15 most expensive and most affordable counties |
 | **Tenure Analysis** | Freehold vs Leasehold price breakdown |
-| **Predictive Model** | Linear Regression baseline — actual vs predicted |
+| **Predictive Model** | Linear Regression baseline - actual vs predicted |
 | **Conclusions** | Key findings and suggested next steps |
 
 ---
