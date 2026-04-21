@@ -1,4 +1,4 @@
-# 🏠 UK House Price Analysis — England & Wales
+# UK House Price Analysis(England & Wales)
 
 An exploratory data analysis and predictive modelling project using official HM Land Registry Price Paid Data.
 
@@ -8,7 +8,7 @@ An exploratory data analysis and predictive modelling project using official HM 
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 This project analyses residential property sales across England and Wales using the HM Land Registry Price Paid dataset — a publicly available dataset updated monthly by the UK government, covering every residential sale since 1995.
 
@@ -16,7 +16,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 
 ---
 
-## 🔍 Key Questions
+## Key Questions
 
 1. How are house prices distributed across England & Wales?
 2. Which counties are the most and least affordable?
@@ -27,7 +27,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 
 ---
 
-## 📊 Analysis Sections
+## Analysis Sections
 
 | Section | Description |
 |---|---|
@@ -44,7 +44,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.10**
 - **pandas** — data loading, cleaning, and aggregation
@@ -54,7 +54,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1 — Run locally
 
@@ -92,7 +92,7 @@ uk-house-price-analysis/
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 - **Detached houses** have the highest median price; **flats** are the most affordable property type
 - **New builds command a significant premium** across all property types
@@ -107,12 +107,10 @@ uk-house-price-analysis/
 **HM Land Registry — Price Paid Data**  
 [https://www.gov.uk/government/collections/price-paid-data](https://www.gov.uk/government/collections/price-paid-data)
 
-Contains HM Land Registry data © Crown copyright and database right 2024. Released under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence).
-
 ---
 
 ## 👤 Author
 
 **Kaveen Kodikarage**  
-BSc (Hons) Computing Systems — Ulster University  
+BSc (Hons) Computing Systems
 📧 kaveenyasas14@gmail.com
