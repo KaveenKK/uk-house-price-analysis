@@ -10,7 +10,7 @@ An exploratory data analysis and predictive modelling project using official HM 
 
 ## Project Overview
 
-This project analyses residential property sales across England and Wales using the HM Land Registry Price Paid dataset — a publicly available dataset updated monthly by the UK government, covering every residential sale since 1995.
+This project analyses residential property sales across England and Wales using the HM Land Registry Price Paid dataset, a publicly available dataset updated monthly by the UK government, covering every residential sale since 1995.
 
 The goal is to uncover pricing trends, regional inequality, and the factors that most influence house prices, before building a baseline predictive model.
 
@@ -82,9 +82,9 @@ Click below to open in Google Colab:
 
 - **Detached houses** have the highest median price; **flats** are the most affordable property type
 - **New builds command a significant premium** across all property types
-- **Regional disparity is substantial** — the most expensive counties can be 3-4 times the price of the most affordable
+- **Regional disparity is substantial** —the most expensive counties can be 3-4 times the price of the most affordable
 - **Transaction volumes peak in spring/early summer**, with a notable dip in January
-- A baseline Linear Regression model confirms that categorical features alone have limited predictive power — **location data (postcode level) would be the most impactful addition**
+- A baseline Linear Regression model confirms that categorical features alone have limited predictive power —**location data (postcode level) would be the most impactful addition**
 
 ---
 
