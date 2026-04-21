@@ -30,7 +30,7 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 ## Analysis Sections
 
 | Section | Description |
-|---|---|
+
 | **Data Loading** | Fetch directly from HM Land Registry open data S3 bucket |
 | **Data Cleaning** | Handle missing values, outlier removal, feature engineering |
 | **Price Distribution** | Histogram and log-scale distribution analysis |
@@ -47,16 +47,16 @@ The goal is to uncover pricing trends, regional inequality, and the factors that
 ## Tech Stack
 
 - **Python 3.10**
-- **pandas** — data loading, cleaning, and aggregation
-- **NumPy** — numerical operations
-- **Matplotlib / Seaborn** — data visualisation
-- **Scikit-learn** — machine learning (Linear Regression, Label Encoding, train/test split)
+- **pandas**
+- **NumPy**
+- **Matplotlib/Seaborn** 
+- **Scikit-learn** 
 
 ---
 
 ## How to Run
 
-### Option 1 — Run locally
+### Option 1 - Run locally
 
 ```bash
 # Clone the repo
@@ -70,25 +70,11 @@ pip install -r requirements.txt
 jupyter notebook uk_house_price_analysis.ipynb
 ```
 
-### Option 2 — Run in the browser (no install needed)
+### Option 2 - Run in the browser (no install needed)
 
-Click the badge below to open in Google Colab:
+Click below to open in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KaveenKK/uk-house-price-analysis/blob/main/uk_house_price_analysis.ipynb)
-
-> **Note:** The notebook downloads data (~50MB) directly from the Land Registry on first run. This takes 1–2 minutes.
-
----
-
-## 📁 Repository Structure
-
-```
-uk-house-price-analysis/
-│
-├── uk_house_price_analysis.ipynb   # Main analysis notebook
-├── requirements.txt                 # Python dependencies
-└── README.md                        # This file
-```
 
 ---
 
@@ -96,7 +82,7 @@ uk-house-price-analysis/
 
 - **Detached houses** have the highest median price; **flats** are the most affordable property type
 - **New builds command a significant premium** across all property types
-- **Regional disparity is substantial** — the most expensive counties can be 3–4× the price of the most affordable
+- **Regional disparity is substantial** — the most expensive counties can be 3-4 times the price of the most affordable
 - **Transaction volumes peak in spring/early summer**, with a notable dip in January
 - A baseline Linear Regression model confirms that categorical features alone have limited predictive power — **location data (postcode level) would be the most impactful addition**
 
@@ -104,7 +90,7 @@ uk-house-price-analysis/
 
 ## Data Source
 
-**HM Land Registry — Price Paid Data**  
+**HM Land Registry - Price Paid Data**  
 [https://www.gov.uk/government/collections/price-paid-data](https://www.gov.uk/government/collections/price-paid-data)
 
 ---
