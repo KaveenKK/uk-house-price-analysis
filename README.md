@@ -102,15 +102,15 @@ uk-house-price-analysis/
 
 ---
 
-## 📂 Data Source
+## Data Source
 
 **HM Land Registry — Price Paid Data**  
 [https://www.gov.uk/government/collections/price-paid-data](https://www.gov.uk/government/collections/price-paid-data)
 
 ---
 
-## 👤 Author
+## Author
 
 **Kaveen Kodikarage**  
 BSc (Hons) Computing Systems
-📧 kaveenyasas14@gmail.com
+kaveenyasas14@gmail.com
